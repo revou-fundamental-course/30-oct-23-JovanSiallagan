@@ -1,0 +1,174 @@
+body {
+    background-color: #00A9FF;
+    background: linear-gradient(180deg, #00A9FF 26.22%, #040034 100%);
+}
+
+.headerbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #CDF5FD;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    position: fixed;
+}
+
+#logo {
+    color: #000;
+    text-align: center;
+    font-family: Arial;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.navbar {
+    color: #000;
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    margin-top: 21px;
+    display: flex;
+    gap: 50px;
+}
+
+.navbar>a {
+    text-decoration: none;
+}
+
+#contact {
+    margin-right: 50px;
+}
+
+.start {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contens {
+    align-self: auto;
+    margin-left: 50px;
+}
+
+#title {
+    color: black;
+    font-family: Arial;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #89CFF3;
+    width: fit-content;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#bmi {
+    color: black;
+    text-align: justify;
+    font-family: Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 120px;
+    background-color: #89CFF3;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    background-color: #89CFF3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    padding: 20px;
+    margin-right: 50px;
+}
+
+main {
+    padding: 20px;
+}
+
+.calculator {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 0px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #0074D9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    padding: 10px 20px;
+}
+
+footer {
+    position: fixed; /* Mengatur elemen footer tetap pada posisi */
+    bottom: 0; /* Menempatkan elemen footer di bagian bawah halaman */
+    width: 100%; /* Lebar elemen footer 100% dari lebar halaman */
+    background-color: #000; /* Contoh warna latar belakang footer */
+    color: #fff; /* Contoh warna teks footer */
+    left: 0%;
+    right: 0%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot1 {
+    margin-left: 50px;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.foot2 {
+    margin-right: 50px;
+    text-align: end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+}

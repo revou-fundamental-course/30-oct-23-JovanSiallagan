@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KALKUBISA INDONESIA</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="headerbar">
+        <h1 id="logo">KALKUBISA</h1>
+        <nav class="navbar">
+            <a href="index.html" id="home" >Home</a>
+            <a href="#" id="profile">Profile</a>
+            <a href="#" id="contact">Contact</a>
+        </nav>
+    </header>
+    <br><br><br><br><br><br>
+    <div class="start">
+        <div class="contens">
+            <h3 id="title"><b>Kalkulator BMI</b></h3>
+            <p id="bmi">Indeks Massa Tubuh (Body Mass Index atau BMI) adalah sebuah metode sederhana untuk mengukur proporsi
+                berat badan dan tinggi badan seseorang. BMI digunakan untuk menentukan apakah seseorang memiliki
+                berat badan yang sehat, kurang berat badan, berlebihan, atau obesitas. Ini adalah alat yang umum
+                digunakan dalam pengukuran kesehatan dan pemantauan berat badan seseorang.
+                <br><br>
+                Keunggulan Kalkulator BMI :
+                <br>
+                1. Sederhana dan cepat.
+                <br>
+                2. Memberikan indikasi awal kelebihan berat badan atau kurang berat badan.
+                <br>
+                3. Cocok untuk pengukuran massal dan pemantauan kesehatan.
+                <br>
+                4. Menyediakan petunjuk gizi.
+                <br>
+                5. Alat pemantauan berat badan.
+                <br><br>
+                Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh mengandalkan pembacaan BMI ini) dan tidak ada tindakan yang harus diambil berdasarkan nilainya selain berkonsultasi dengan orang yang memenuhi syarat seperti dokter.
+                <br><br>
+                Kalkulator akan memberi Anda gambaran tentang perbandingan berat badan Anda dengan nilai umum. Indeks Massa Tubuh (atau BMI) dihitung sebagai berat badan Anda (dalam kilogram) dibagi dengan kuadrat tinggi badan Anda (dalam meter) atau BMI-Kg/M²
+            </p>
+        </div>
+        <div class="container">
+            <main>
+                <div class="calculator">
+                    <label for="weight">Berat Badan (kg):</label>
+                    <input type="number" id="weight" placeholder="Masukkan berat badan" min="0">
+                    <label for="height">Tinggi Badan (cm):</label>
+                    <input type="number" id="height" placeholder="Masukkan tinggi badan" min="0">
+                    <br><br>
+                    <button onclick="calculateBMI()">Hitung BMI</button>
+                    <div id="result">
+                        <br><br>
+                        Hasil BMI Anda akan muncul di sini.
+                    </div>
+                </div>
+            </main>
+        </div>     
+    </div>
+    <footer>
+        <p class="foot1">Jovan Siallagan</p>
+        <p class="foot2">KALKUBISA 2023</p>
+    </footer>
+<br><br><br><br><br><br><br><br><br><br><br>
+<script src="js/script.js"></script>
+</body>
+</html>
