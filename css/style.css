@@ -143,11 +143,11 @@ button:hover {
 }
 
 footer {
-    position: fixed; /* Mengatur elemen footer tetap pada posisi */
-    bottom: 0; /* Menempatkan elemen footer di bagian bawah halaman */
-    width: 100%; /* Lebar elemen footer 100% dari lebar halaman */
-    background-color: #000; /* Contoh warna latar belakang footer */
-    color: #fff; /* Contoh warna teks footer */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
     left: 0%;
     right: 0%;
     margin-top: 0px;
