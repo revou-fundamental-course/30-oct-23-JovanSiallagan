@@ -21,3 +21,11 @@ function calculateBMI() {
         document.getElementById("result").innerHTML = "Masukkan berat badan dan tinggi badan yang valid.";
     }
 }
+
+function resetForm() {
+    document.getElementById("weight").value = ""; // Menghapus nilai berat badan
+    document.getElementById("height").value = ""; // Menghapus nilai tinggi badan
+    document.getElementById("age").value = ""; // Menghapus nilai usia
+    document.getElementById("gender").value = ""; // Menghapus nilai gender
+    document.getElementById("result").innerHTML = "Hasil BMI Anda akan muncul di sini."; // Menghapus hasil perhitungan
+}

@@ -2,9 +2,10 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>KALKUBISA INDONESIA</title>
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
     <header class="headerbar">
@@ -38,20 +39,31 @@
                 <br><br>
                 Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh mengandalkan pembacaan BMI ini) dan tidak ada tindakan yang harus diambil berdasarkan nilainya selain berkonsultasi dengan orang yang memenuhi syarat seperti dokter.
                 <br><br>
-                Kalkulator akan memberi Anda gambaran tentang perbandingan berat badan Anda dengan nilai umum. Indeks Massa Tubuh (atau BMI) dihitung sebagai berat badan Anda (dalam kilogram) dibagi dengan kuadrat tinggi badan Anda (dalam meter) atau BMI-Kg/M²
+                Kalkulator akan memberi Anda gambaran tentang perbandingan berat badan Anda dengan nilai umum. Indeks Massa Tubuh (atau BMI) dihitung sebagai berat badan Anda (dalam kilogram) dibagi dengan kuadrat tinggi badan Anda (dalam meter) atau BMI-Kg/M².
             </p>
         </div>
         <div class="container">
             <main>
                 <div class="calculator">
-                    <label for="weight">Berat Badan (kg):</label>
+                    <label for="weight">Berat Badan (kg) :</label>
                     <input type="number" id="weight" placeholder="Masukkan berat badan" min="0">
-                    <label for="height">Tinggi Badan (cm):</label>
+                    <label for="height">Tinggi Badan (cm) :</label>
                     <input type="number" id="height" placeholder="Masukkan tinggi badan" min="0">
+                    <label for="age">Umur (tahun) :</label>
+                    <input type="number" id="age" placeholder="Masukkan umur" min="0">
+                    <label for="gender">Jenis Kelamin</label>
+                    <form id="myForm">
+                        <input type="radio" id="gender" name="Jenis Kelamin"><label for="Pria">Pria</label>
+                        <input type="radio" id="gender" name="Jenis Kelamin"><label for="Wanita">Wanita</label>
+                    </form>
+                        
+                        
+                    </form>
+                    
                     <br><br>
                     <button onclick="calculateBMI()">Hitung BMI</button>
+                    <button onclick="resetForm()">Reset</button>
                     <div id="result">
-                        <br><br>
                         Hasil BMI Anda akan muncul di sini.
                     </div>
                 </div>
