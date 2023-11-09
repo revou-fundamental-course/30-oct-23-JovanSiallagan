@@ -8,7 +8,7 @@ Kalkulator BMI (Body Mass Index) adalah alat yang mengukur hubungan antara berat
 - Menghitung nilai BMI
 - Memberikan penjelasan dan saran dari hasil perhitungan BMI
 
-## Tech
+## Teknologi
 
 KALKUBISA INDONESIA menggunakan beberapa teknologi:
 
