@@ -192,3 +192,24 @@ footer {
     font-size: 12px;
     font-weight: bolder;
 }
+
+/* Media query untuk perangkat mobile (lebar layar kurang dari 768px) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Mengurangi ukuran font */
+    }
+
+    header {
+        padding: 10px; /* Mengurangi padding */
+    }
+
+    nav ul {
+        padding: 5px; /* Mengurangi padding */
+    }
+
+    main {
+        max-width: 100%; /* Mengisi lebar layar penuh */
+        margin: 10px;
+        padding: 10px;
+    }
+}
