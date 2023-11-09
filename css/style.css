@@ -132,7 +132,6 @@ input {
 .form {
     display: flex;
     justify-content: space-evenly;
-    
 }
 
 input[type=radio] {
@@ -193,22 +192,21 @@ footer {
     font-weight: bolder;
 }
 
-/* Media query untuk perangkat mobile (lebar layar kurang dari 768px) */
 @media (max-width: 768px) {
     body {
-        font-size: 14px; /* Mengurangi ukuran font */
+        font-size: 14px;
     }
 
     header {
-        padding: 10px; /* Mengurangi padding */
+        padding: 10px;
     }
 
     nav ul {
-        padding: 5px; /* Mengurangi padding */
+        padding: 5px;
     }
 
     main {
-        max-width: 100%; /* Mengisi lebar layar penuh */
+        max-width: 100%;
         margin: 10px;
         padding: 10px;
     }
